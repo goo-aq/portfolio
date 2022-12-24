@@ -1,0 +1,47 @@
+@media (max-width:991px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .header-content p{
+        font-size: 15px;
+    }
+    .about .row{
+        width: 100% !important;
+        
+    }
+    .about .about-content-left .col-lg-6{
+        border: none !important;
+        padding: 0 !important;
+    }
+    .bio .col-md-6 .desc .item:last-child::before {
+        bottom:91%;
+    }
+    .download{
+        height: 600px;
+        text-align: center;
+    }
+    .download .col-md-6:last-child{
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download img{
+        padding-top: 30px;
+    }
+    .contact .w-50{
+        width: 100% !important;
+    }
+    
+    .map .col-md-4 .d-flex{
+        justify-content:left  !important;
+        padding-left: 15%;
+        
+    }
+    footer img {
+        padding-bottom: 20px;
+    }
+
+}
